@@ -14,8 +14,25 @@ Progress Tracking Persistence Verification
   [Delete](./assets/screenshots/screenshot.py) 
 
 
-   Data Storage Structure
-The application uses a local (./tasks_db.json/) file to ensure data persistence. This allows the system to save and retrieve tasks even after the session is closed.
+  ## 💾 Data Persistence (JSON Storage)
+This project uses a local JSON database to ensure that tasks are not lost when the application is closed or the browser is refreshed.
+
+Database Schema (`tasks_db.json`)
+The data is stored as a list of dictionaries, following this structure:
+
+```json
+[
+  {
+    "task": "Complete AI-II Lab Record",
+    "priority": "High",
+    "done": false
+  },
+  {
+    "task": "Prolog Assignment",
+    "priority": "Medium",
+    "done": true
+  }
+]
 
 
 Visual Feedback via Progress Bar JSON Data Management
