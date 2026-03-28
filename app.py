@@ -50,7 +50,7 @@ def main():
             col1, col2, col3 = st.columns([0.1, 0.7, 0.2])
             
             # Checkbox for status
-            is_done = col1.checkbox("", value=task['done'], key=f"check_{idx}")
+            is_done = col1.checkbox("Done", value=task['done'], key=f"check_{idx}", label_visibility="collapsed")
             if is_done != task['done']:
                 st.session_state.tasks[idx]['done'] = is_done
                 save_tasks(st.session_state.tasks)
