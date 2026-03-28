@@ -14,28 +14,12 @@ Progress Tracking Persistence Verification
   [Delete](./assets/screenshots/screenshot.py) 
 
 
-  ## 💾 Data Persistence (JSON Storage)
-This project uses a local JSON database to ensure that tasks are not lost when the application is closed or the browser is refreshed.
+ Data Management
+The application uses a persistent JSON-based storage system. You can view the structure of the database here:
 
-Database Schema (`tasks_db.json`)
-The data is stored as a list of dictionaries, following this structure:
-
-```json
-[
-  {
-    "task": "Complete AI-II Lab Record",
-    "priority": "High",
-    "done": false
-  },
-  {
-    "task": "Prolog Assignment",
-    "priority": "Medium",
-    "done": true
-  }
-]
+[View Task Database (tasks_db.json)](./tasks_db.json)
 
 
-Visual Feedback via Progress Bar JSON Data Management
 A reliable Task Management tool developed using Python and Streamlit for the VIT AI-II Capstone Project
   Smart To-Do Manager (BYOP)
 
