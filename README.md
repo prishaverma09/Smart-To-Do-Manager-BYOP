@@ -1,4 +1,7 @@
-# Smart-To-Do-Manager-BYOP
+📑 Project Documentation
+For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
+ [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
+
 A reliable Task Management tool developed using Python and Streamlit for the VIT AI-II Capstone Project
  ✅ Smart To-Do Manager (BYOP)
 
