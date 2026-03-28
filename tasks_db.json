@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Complete AI Lab Experiment 4",
+        "priority": "High",
+        "done": false
+    },
+    {
+        "title": "Upload BYOP Project to GitHub",
+        "priority": "High",
+        "done": false
+    },
+    {
+        "title": "Review Multi-Layer Perceptron Notes",
+        "priority": "Medium",
+        "done": false
+    },
+    {
+        "title": "Buy groceries for the week",
+        "priority": "Low",
+        "done": false
+    },
+    {
+        "title": "Organize Prolog Lab folder",
+        "priority": "Low",
+        "done": false
+    }
+]
