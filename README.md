@@ -1,7 +1,18 @@
  Project Documentation
 For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
  [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
+ 
+  Application Gallery
 
+ Dashboard Overview | Task Prioritization 
+
+[Dashboard](./assets/screenshots/ss1.png) [Priority](./assets/screenshots/ss2.png) 
+Initial UI for Task Input Categorization by Urgency
+
+Progress Tracking Persistence Verification 
+
+[Progress](./assets/screenshots/ss3.png) [Delete](./assets/screenshots/screenshot.py) 
+Visual Feedback via Progress Bar JSON Data Management
 A reliable Task Management tool developed using Python and Streamlit for the VIT AI-II Capstone Project
   Smart To-Do Manager (BYOP)
 
