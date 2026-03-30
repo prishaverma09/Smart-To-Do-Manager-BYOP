@@ -30,11 +30,13 @@ For a detailed technical breakdown, including the problem statement, methodology
  [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
 
 
----
-
 ### Installation & Setup
 To run this project locally, ensure you have Python 3.10 or higher installed.
 
 1. Clone the repo: `git clone <your-repo-link>`
 2. Install Streamlit: `pip install streamlit`
 3. Run the application: `python -m streamlit run app.py`
+
+---
+### Installation & Setup
+To run this project locally, ensure you have Python 3.10 or higher installed.
