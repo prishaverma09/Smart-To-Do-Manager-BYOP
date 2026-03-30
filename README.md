@@ -1,8 +1,3 @@
-Project Documentation
-For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
- [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
-
-
 ###  Smart To-Do Manager
 
 A Persistent Task Prioritization System for Academic Productivity.
@@ -28,6 +23,12 @@ The application follows a modular architecture where the Streamlit Frontend inte
 - Frontend: Streamlit (Reactive UI)
 - Backend: Python Logic & Dictionary Mapping
 - Database: JSON (File-based Persistence)
+
+---
+Project Documentation
+For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
+ [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
+
 
 ---
 
