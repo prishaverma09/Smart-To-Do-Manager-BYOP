@@ -4,11 +4,8 @@
 [Progress](./assets/screenshots/ss3.png) 
 Initial UI for Task Input Categorization by Urgency
 
-Progress Tracking Persistence Verification 
-  [Delete](./assets/screenshots/screenshot.py) 
 
-
- Data Management
+Data Management
 The application uses a persistent JSON-based storage system. You can view the structure of the database here:
 
 [View Task Database (tasks_db.json)](./tasks_db.json)
