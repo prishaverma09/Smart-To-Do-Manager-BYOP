@@ -25,11 +25,6 @@ The application follows a modular architecture where the Streamlit Frontend inte
 - Database: JSON (File-based Persistence)
 
 ---
-Project Documentation
-For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
- [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
-
-
 ### Installation & Setup
 To run this project locally, ensure you have Python 3.10 or higher installed.
 
@@ -38,5 +33,15 @@ To run this project locally, ensure you have Python 3.10 or higher installed.
 3. Run the application: `python -m streamlit run app.py`
 
 ---
-### Installation & Setup
-To run this project locally, ensure you have Python 3.10 or higher installed.
+##  Quick Start
+1. Clone & Enter:
+   `git clone <your-link> && cd Smart-To-Do-Manager-BYOP`
+2. Install:
+   `pip install streamlit`
+3. Launch:
+   `streamlit run app.py`
+   
+---
+Project Documentation
+For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
+ [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
