@@ -5,6 +5,13 @@ A Persistent Task Prioritization System for Academic Productivity.
 This project was developed as a Build Your Own Project (BYOP) for the Artificial Intelligence / Problem Solving course at **VIT Bhopal University**. It is a web-based application designed to help students manage lab records, assignments, and deadlines using priority-based logic.
 
 ---
+Student Information
+Name: Prisha verma
+Registration Number: [25BAI11501]
+Branch: Cse-AI/ML
+University: VIT Bhopal University 
+
+---
  Application Gallery
 
 | Dashboard Overview | Task Prioritization |
