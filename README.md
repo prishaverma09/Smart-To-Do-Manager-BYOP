@@ -1,36 +1,37 @@
- Dashboard Overview | Task Prioritization 
+Project Documentation
+For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
+ [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
 
+
+###  Smart To-Do Manager
+
+A Persistent Task Prioritization System for Academic Productivity.
+
+This project was developed as a Build Your Own Project (BYOP) for the Artificial Intelligence / Problem Solving course at **VIT Bhopal University**. It is a web-based application designed to help students manage lab records, assignments, and deadlines using priority-based logic.
+
+---
+ Application Gallery
+
+| Dashboard Overview | Task Prioritization |
 [Dashboard](./assets/screenshots/ss1.png) [Priority](./assets/screenshots/ss2.png) 
 [Progress](./assets/screenshots/ss3.png) 
-Initial UI for Task Input Categorization by Urgency
 
+| Visual Feedback via Progress Bar | JSON Data Management |
 
-Data Management
-The application uses a persistent JSON-based storage system. You can view the structure of the database here:
+---
 
-[View Task Database (tasks_db.json)](./tasks_db.json)
+###  System Architecture
+The application follows a modular architecture where the Streamlit Frontend interacts with a Python Logic Layer, which performs CRUD (Create, Read, Update, Delete) operations on a Local JSON Database.
 
+- Frontend: Streamlit (Reactive UI)
+- Backend: Python Logic & Dictionary Mapping
+- Database: JSON (File-based Persistence)
 
-A reliable Task Management tool developed using Python and Streamlit for the VIT AI-II Capstone Project
-  Smart To-Do Manager (BYOP)
+---
 
- Problem Statement
-Managing multiple academic deadlines and personal tasks can lead to high cognitive load. This project provides a digital solution to track, prioritize, and persist tasks locally.
+### Installation & Setup
+To run this project locally, ensure you have Python 3.10 or higher installed.
 
-Features
-- Priority Levels: Assign 'High', 'Medium', or 'Low' to tasks.
-- Data Persistence: Uses JSON to save tasks even after the app is closed.
-- Visual Feedback: Progress bars and strike-throughs for completed items.
-
- Installation & Setup
 1. Clone the repo: `git clone <your-repo-link>`
 2. Install Streamlit: `pip install streamlit`
 3. Run the application: `python -m streamlit run app.py`
-
- Author
-- Name: Prisha
-- University: VIT Bhopal University
-
- Project Documentation
-For a detailed technical breakdown, including the problem statement, methodology, and testing results, please refer to the formal report:
- [Download Project Report PDF](./Project_Report_Smart_To-Do_Manager.pdf)
