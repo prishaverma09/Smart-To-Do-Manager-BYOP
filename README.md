@@ -16,7 +16,9 @@ This project was developed as a Build Your Own Project (BYOP) for the Artificial
 [Dashboard](./assets/screenshots/ss1.png) [Priority](./assets/screenshots/ss2.png) 
 [Progress](./assets/screenshots/ss3.png) 
 
-| *Visual Feedback via Progress Bar* | *JSON Data Management* |
+### Data Persistence
+This project uses a local JSON database to store your tasks. 
+You can view the raw data structure here: [View tasks_db.json](./tasks_db.json)
 
 ---
 
